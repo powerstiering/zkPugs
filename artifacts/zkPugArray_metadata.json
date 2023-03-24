@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pugName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pugUniqueIdentifier",
+						"type": "uint256"
+					}
+				],
+				"name": "addPug",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "zkpug",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "pugUniqueIdentifier",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "pugName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"zkPugArray.sol": "zkPugArray"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"zkPugArray.sol": {
+			"keccak256": "0x70c6531beaa7c771fee08174bcca477bff5a28a3c380df432b8c7de190696731",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://64e50f326a6513bd10503c72e7a5f26e21d21f0150b54228ea796d739817965b",
+				"dweb:/ipfs/Qma9KZSomnExEdcVADrejDGfcz78EsuPMcVn26psL36RbZ"
+			]
+		}
+	},
+	"version": 1
+}
